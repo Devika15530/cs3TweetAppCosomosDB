@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "apis1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/cmp3TweetAppapi/apis/cmp3TweetApp",
+      "type": "apis.azure"
+    },
+    "cosmosdb1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.DocumentDB/databaseAccounts/cs3tweetapp",
+      "type": "cosmosdb.azure",
+      "connectionId": "TweetApp",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}
